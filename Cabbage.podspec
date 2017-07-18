@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A big Cabbage.
+A very very very very very very very very very very very very very very very very very very very very very big Cabbage.
                        DESC
 
   s.homepage         = 'https://github.com/EyreFree/Cabbage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'EyreFree' => 'zheng.xu03@ele.me' }
+  s.author           = { 'EyreFree' => 'eyrefree@eyrefree.org' }
   s.source           = { :git => 'https://github.com/EyreFree/Cabbage.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/EyreFree777'
 
   s.ios.deployment_target = '8.0'
 
