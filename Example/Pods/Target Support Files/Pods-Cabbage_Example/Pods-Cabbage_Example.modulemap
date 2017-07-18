@@ -1,0 +1,6 @@
+framework module Pods_Cabbage_Example {
+  umbrella header "Pods-Cabbage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

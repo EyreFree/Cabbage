@@ -1,0 +1,19 @@
+PODS:
+  - Cabbage (0.0.1)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - Cabbage (from `../`)
+  - SnapKit (~> 3.2.0)
+
+EXTERNAL SOURCES:
+  Cabbage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cabbage: eb201bcdd2e926ed826e25ac21f075b3319b0bef
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 37a30e5cd995e67f8c80801ada1c252e3f5995ad
+
+COCOAPODS: 1.2.1

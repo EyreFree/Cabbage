@@ -1,0 +1,22 @@
+{
+  "name": "Cabbage",
+  "version": "0.0.1",
+  "summary": "A Cabbage.",
+  "description": "A big Cabbage.",
+  "homepage": "https://github.com/EyreFree/Cabbage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "EyreFree": "zheng.xu03@ele.me"
+  },
+  "source": {
+    "git": "https://github.com/EyreFree/Cabbage.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Cabbage/Classes/**/*"
+}
