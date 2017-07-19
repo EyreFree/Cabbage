@@ -5,6 +5,7 @@ import SnapKit
 
 class HomeController: UIViewController, CabbageStoreSubscriber {
     typealias StoreSubscriberStateType = HomeState
+    var homeStore: CabbageStore<HomeState>?
 
     let counterLabel = UILabel()
     let downButton = UIButton()

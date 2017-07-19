@@ -7,12 +7,13 @@ extension HomeController {
     }
 
     public func store() -> CabbageStore<HomeState> {
-        struct Holder {
-            static let homeStore = CabbageStore<HomeState>(
+        return homeStore ?? {
+            let newStore = CabbageStore<HomeState>(
                 reducer: HomeController.counterReducer,
                 state: nil
             )
-        }
-        return Holder.homeStore
+            homeStore = newStore
+            return newStore
+            }()
     }
 }
