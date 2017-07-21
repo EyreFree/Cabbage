@@ -3,66 +3,92 @@ import UIKit
 import Cabbage
 import SnapKit
 
-class HomeController: UIViewController, CabbageStoreSubscriber {
-    typealias StoreSubscriberStateType = HomeState
+class HomeController: CabbageTableViewController, CabbageStoreSubscriber {
+
     var homeStore: CabbageStore<HomeState>?
 
-    let counterLabel = UILabel()
-    let downButton = UIButton()
-    let upButton = UIButton()
+    let tableView = UITableView(frame: CGRect.zero, style: .grouped)
+    let textField = UITextField()
+    let addButton = UIButton(type: .system)
+
+    override var cells: [[CabbageTableViewCellModel]]? {
+        get {
+            return store().state.nameList
+        }
+        set(newValue) {
+            if let newValue = newValue as? [[HomeController.lineModel]] {
+                store().state.nameList = newValue
+            }
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "lineModel")
 
         store().subscribe(self)
         addControls()
     }
 
     func addControls() {
-        counterLabel.textAlignment = .center
-        counterLabel.font = UIFont.systemFont(ofSize: 48)
-        self.view.addSubview(counterLabel)
-        counterLabel.snp.makeConstraints {
+        textField.layer.borderColor = UIColor.black.cgColor
+        textField.layer.borderWidth = 1
+        self.view.addSubview(textField)
+        textField.snp.makeConstraints {
             (make) in
-            make.left.equalTo(10)
-            make.right.equalTo(-10)
-            make.height.equalTo(64)
-            make.centerY.equalTo(self.view)
+            make.left.equalTo(1)
+            make.right.equalTo(-81)
+            make.top.equalTo(11)
+            make.height.equalTo(48)
         }
 
-        downButton.setTitle("-", for: .normal)
-        downButton.setTitleColor(UIColor.black, for: .normal)
-        downButton.addTarget(self, action: #selector(downTouch(_:)), for: .touchUpInside)
-        self.view.addSubview(downButton)
-        downButton.snp.makeConstraints {
+        addButton.layer.borderColor = UIColor.black.cgColor
+        addButton.layer.borderWidth = 1
+        addButton.setTitle("Add", for: .normal)
+        addButton.addTarget(self, action: #selector(addClick), for: .touchDown)
+        self.view.addSubview(addButton)
+        addButton.snp.makeConstraints {
             (make) in
-            make.top.equalTo(counterLabel.snp.bottom)
-            make.left.equalTo(counterLabel)
-            make.height.equalTo(24)
+            make.right.equalTo(-1)
+            make.height.equalTo(48)
+            make.width.equalTo(78)
+            make.top.equalTo(11)
         }
 
-        upButton.setTitle("+", for: .normal)
-        upButton.setTitleColor(UIColor.black, for: .normal)
-        upButton.addTarget(self, action: #selector(upTouch(_:)), for: .touchUpInside)
-        self.view.addSubview(upButton)
-        upButton.snp.makeConstraints {
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.showsVerticalScrollIndicator = false
+        tableView.bounces = true
+        tableView.alwaysBounceVertical = true
+        tableView.isScrollEnabled = true
+        tableView.backgroundColor = UIColor.clear
+        tableView.separatorColor = UIColor.clear
+        //tableView.tableFooterView = UIView(frame: CGRect.zero)
+        tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        //tableView.layoutMargins = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        self.view.addSubview(tableView)
+        tableView.snp.makeConstraints {
             (make) in
-            make.top.height.equalTo(downButton)
-            make.left.equalTo(downButton.snp.right)
-            make.right.equalTo(counterLabel)
-            make.width.equalTo(downButton)
+            make.left.right.bottom.equalTo(0)
+            make.top.equalTo(60)
         }
     }
 
     func newState(state: HomeState) {
-        counterLabel.text = "\(state.counter)"
+        tableView.reloadData()
     }
 
-    func downTouch(_ sender: AnyObject) {
-        store().dispatch(CounterActionDecrease());
+    func addClick(_ sender: AnyObject) {
+        let xxx = HomeController.lineModel()
+        xxx.name = textField.text
+        store().dispatch(ListActionAdd(newLine: xxx))
     }
+}
 
-    func upTouch(_ sender: AnyObject) {
-        store().dispatch(CounterActionIncrease());
+extension HomeController {
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        store().dispatch(ListActionClick(index: indexPath.row))
     }
 }

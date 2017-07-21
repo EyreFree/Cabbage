@@ -6,6 +6,6 @@ public protocol CabbageTableViewCellModel: CabbageModel, CabbageReuse {
     var estimatedHeight: CGFloat? { get set }
 }
 
-extension CabbageTableViewCellModel {
+public extension CabbageTableViewCellModel {
 
 }

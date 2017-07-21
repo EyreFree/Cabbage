@@ -5,6 +5,6 @@ public protocol CabbageModel {
     
 }
 
-extension CabbageModel {
+public extension CabbageModel {
 
 }

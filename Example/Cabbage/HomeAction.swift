@@ -2,6 +2,10 @@
 import Cabbage
 
 extension HomeController {
-    public struct CounterActionIncrease: CabbageAction {}
-    public struct CounterActionDecrease: CabbageAction {}
+    public struct ListActionAdd: CabbageAction {
+        var newLine: lineModel?
+    }
+    public struct ListActionClick: CabbageAction {
+        var index: Int?
+    }
 }

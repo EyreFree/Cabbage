@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension CGFloat {
+public extension CGFloat {
 
     static func closeToZero() -> CGFloat {
         return 0.0000000001

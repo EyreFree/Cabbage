@@ -10,7 +10,7 @@ public protocol CabbageView {
     func setModel(with: CabbageModel)
 }
 
-extension CabbageView {
+public extension CabbageView {
 
 
 }

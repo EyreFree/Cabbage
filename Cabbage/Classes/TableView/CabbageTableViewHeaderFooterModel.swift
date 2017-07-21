@@ -7,6 +7,6 @@ public protocol CabbageTableViewHeaderFooterModel: CabbageModel, CabbageReuse {
     var estimatedHeight: CGFloat? { get set }
 }
 
-extension CabbageTableViewHeaderFooterModel {
+public extension CabbageTableViewHeaderFooterModel {
 
 }

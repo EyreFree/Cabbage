@@ -90,16 +90,8 @@
 				12C767CC1EE504A7006177C1 /* HomeStore.swift */,
 				127DEF0F1EE446EB00D83782 /* HomeAction.swift */,
 				12C767CA1EE50448006177C1 /* HomeReducer.swift */,
-				127DEF0E1EE4453400D83782 /* Module */,
 			);
 			name = Home;
-			sourceTree = "<group>";
-		};
-		127DEF0E1EE4453400D83782 /* Module */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Module;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {

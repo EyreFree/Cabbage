@@ -6,9 +6,9 @@ public protocol CabbageReuse {
     func reuseIdentifier() -> String
 }
 
-extension CabbageReuse {
+public extension CabbageReuse {
 
-    func reuseIdentifier() -> String? {
+    func reuseIdentifier() -> String {
         return "\(type(of: self))"
     }
 }

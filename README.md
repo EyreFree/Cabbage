@@ -19,6 +19,8 @@ Or you can run the following command in terminal:
 git clone git@github.com:EyreFree/Cabbage.git; cd Cabbage/Example; open 'Cabbage.xcworkspace'
 ```
 
+For more examples: [https://github.com/EyreFree/CabbageExamples](https://github.com/EyreFree/CabbageExamples)
+
 ## Requirements
 
 - XCode 8.0+

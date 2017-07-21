@@ -7,81 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0765F95F829439E9830F396D902BB854 /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CA91614DA4C5F5CC0FB5B5E614CE7 /* Middleware.swift */; };
-		07D7B9D73FABBA733AF61DFB7087D79A /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A9F9A5E45B869D80E14A1693712A75 /* StoreType.swift */; };
+		0408362352E994ECFBB83D52CDD2542A /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE49C15FF3AF18B74C136D3176CE394 /* TypeHelper.swift */; };
+		0545E60907F4A76B93B24AE73B2D6A4B /* CabbageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9930BC5A73A807813440FB77A857D8 /* CabbageCache.swift */; };
 		09F606AD25AE345BA40BC596728BAF40 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9A2B12FAD5179289BD79BAC77D995 /* ConstraintConstantTarget.swift */; };
 		0D164A4216A13C412B912F03557DE4BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		0E024DEA07F0714D7AC56AD6FFE3B957 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC30665F5851A91F53B06C1C5DB086F /* ConstraintMaker.swift */; };
-		0FE5A1FFB55796117F43FA419A88F9E6 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08339472A63400BCB1D919DE073FC9F9 /* Action.swift */; };
-		12634014F0C9573E97E2CAE341E17E06 /* CabbageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CA20B84E14D5E13E53D5A435DE588C /* CabbageAction.swift */; };
-		12BB85851F1DB14000EA7947 /* CabbageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85841F1DB14000EA7947 /* CabbageCache.swift */; };
-		12BB85871F1DDB0600EA7947 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85861F1DDB0600EA7947 /* Global.swift */; };
-		12BB85891F1DE57100EA7947 /* CabbageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85881F1DE57100EA7947 /* CabbageTest.swift */; };
-		12BB85981F1F47ED00EA7947 /* CabbageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85971F1F47ED00EA7947 /* CabbageTableView.swift */; };
-		12BB85A61F1F832000EA7947 /* CabbageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85A51F1F832000EA7947 /* CabbageModel.swift */; };
-		12BB85A81F20765500EA7947 /* CabbageTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85A71F20765500EA7947 /* CabbageTableViewCellModel.swift */; };
-		12BB85AA1F20819C00EA7947 /* CabbageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85A91F20819C00EA7947 /* CabbageTableViewCell.swift */; };
-		12BB85AC1F20A86300EA7947 /* CabbageTableViewHeaderFooterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85AB1F20A86300EA7947 /* CabbageTableViewHeaderFooterModel.swift */; };
-		12BB85B11F20A9C500EA7947 /* CGFloat+Cabbage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85B01F20A9C500EA7947 /* CGFloat+Cabbage.swift */; };
-		12BB85B31F20AE4700EA7947 /* CabbageTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85B21F20AE4700EA7947 /* CabbageTableViewHeaderFooterView.swift */; };
-		12BB85B71F20BC5700EA7947 /* CabbageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85B61F20BC5700EA7947 /* CabbageObject.swift */; };
-		12BB85B91F219FD600EA7947 /* CabbageReuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BB85B81F219FD600EA7947 /* CabbageReuse.swift */; };
+		0EB9E8D32C9005A7EE0E9DE32B877B72 /* CabbageStateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0BEFF82F8B5A2407E42106EF2F7EC /* CabbageStateType.swift */; };
+		0F7F785EA34F560DC4FC3FB1C7EB3155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		11CA080531F3025245F758C1EA30CDC0 /* CabbageTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F892C0CEE6E93AC56560A7742EAA85 /* CabbageTableViewCellModel.swift */; };
+		148766D0E98CF71405B9CCF274F4B8A3 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E490722CCE2208DBFC88D9B4E3ED7D54 /* DispatchingStoreType.swift */; };
+		1795D9C07D5FE8020B986927644F4FCD /* CabbageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3362CC8ABFFED392C499F4748C21222D /* CabbageTest.swift */; };
+		1AF0C4A935A69284DBF9CA32E9D7E8D9 /* CabbageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175070CA22E5AED883BFA643D0F04BD /* CabbageTableViewController.swift */; };
+		211C1CAAEF70F68F9596D3B50A69553D /* CabbageReuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C384643AE0AD04F4CD6B85B9C9367F /* CabbageReuse.swift */; };
 		24E9381A16565007E7D1CFCB84D4C531 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6580BC912561D405845ED2A61C49CDBF /* ConstraintRelatableTarget.swift */; };
+		25883C605D76EB36FE1946EB638D7176 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13BCF5351B53B0BED5349D73ACFDCAA /* Subscription.swift */; };
 		283F96CB43B72FFCC9C5DA1822922279 /* Pods-Cabbage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A391476119F72440624E203974C595FC /* Pods-Cabbage_Example-dummy.m */; };
+		28DA53220843C7311183F71C2121215F /* CabbageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F9BBE944A92B0C7D33FBD65FD061F /* CabbageAction.swift */; };
 		2B6F31ABE91D9263D4C7D3A7A88BF96F /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D41E08E365B8155DF32EB5D064DEBD /* ConstraintMultiplierTarget.swift */; };
+		319BA11CE8175D60CB1FFCB6F31567B0 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E64ED2EF69A151D93AED1B2F10A2A7 /* State.swift */; };
+		358645895E7091A742DFF3AB216EE9F6 /* CabbageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585F416EBD3D6184358000A5735871F2 /* CabbageController.swift */; };
 		35944A5E9D91E727604FD95025F684AD /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC80D101E67AAC55EB7A7DA474138F29 /* ConstraintDescription.swift */; };
 		384331348D032BFDFF9387106EE0DD7D /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8312E198200C0AEA234E70043168A5 /* Debugging.swift */; };
 		3AB3CFB843785285644517E2BB73A828 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEC92430472C5AD046E7F861C0EA03C /* Constraint.swift */; };
-		3C1DE9375E8356B4D42403176B6150B0 /* TypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24901B697BC20F08CA0963901A142D /* TypeHelper.swift */; };
+		3E9D3132667EF63A25EE7FD7765D42C4 /* CabbageMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4D8DC419A83F8247C9F434325A648 /* CabbageMiddleware.swift */; };
 		4196C7F559E33CFEE85E32E9B42E8C15 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359C2B9292B588439EC410BDD60AC4ED /* ConstraintMakerRelatable.swift */; };
-		454C3EC3808B4B2C12EBCEB9AB4422B1 /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AF69DEA767C3E03E0D098182A5862 /* StoreSubscriber.swift */; };
+		424FB514EB141F739DD72312E245EA0F /* CabbageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18126C4F0019CF2D8B5B88DD470DF3E /* CabbageObject.swift */; };
+		44C40382019BACF773FC85419ACB2D87 /* CabbageReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF75ADF52E752AB03A512610D25E1ECF /* CabbageReducer.swift */; };
+		48FBA63DAACD7CBC2B5CC25E8BFFAF89 /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597B123C364DE54362EF9458A92E7CB /* Assertions.swift */; };
 		4F73447CB82FC1656AF00104FE2F05A2 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646B1C84CB8B9ED6A88495862C479990 /* ConstraintAttributes.swift */; };
-		59E0873DF4B94560B84020E1DF0468D1 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4BED1F6E9C7A2732C0AAF5DC778CE8 /* Subscription.swift */; };
+		50BF94F734DE8CE05019B4B3144481EE /* Cabbage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B1335CB8E3F071970308045ADD6615 /* Cabbage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F30D278A3A717EE5AD6AE07CFFCC36 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E88B541786D560F47EDA8B1F69331F /* ConstraintRelation.swift */; };
-		6780137628B4ABBD5E6B5AC6F712BBA7 /* Cabbage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72E9832CFEA7E4D11A3DD418F418F1 /* Cabbage-dummy.m */; };
+		6401A427412C47A7A8062C178EA874D8 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACDC63D7707D735A8AB45E2D56A57B /* Coding.swift */; };
+		64521D8DF9C42A22FE718EB73232C96B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4B61D6C3414A32EC16807AA98E75B /* Global.swift */; };
 		6963AF438CCAA950A6C58CEB5AE9F7E1 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C2911388ED349020316062C27A0552 /* ConstraintPriorityTarget.swift */; };
-		6C58B957F60A57EA819B905A15AE674C /* Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89B8D0739E688A47298C95FAF5B0A6B /* Assertions.swift */; };
+		6FCB06375AA6143C37307475A3AC10F7 /* CabbageTableViewHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8178A1B20CC3EA32E4E9CE0B477748C /* CabbageTableViewHeaderFooterView.swift */; };
+		739EDB31144AB56E4008A04417CC44F9 /* CabbageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483CCC0EBDCE9548B8815EB1A54C120B /* CabbageView.swift */; };
+		7409D1699850B5CDFE2FD67FE1EE2026 /* CabbageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2877E3D4BDC62B5930E4B544BFC465F /* CabbageModel.swift */; };
+		74864BE2E0B87E721D77B695821E1680 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0A039D4342502CD7655043A004DE35 /* Store.swift */; };
 		754A171A9D62EF06B413CDF0B0FE8303 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593ADC9CCA6A730223A7A1761308569E /* ConstraintMakerExtendable.swift */; };
-		76E84B6E2604E425B3842935B5E70CDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7B6C789127D2829EB1F82D77E7AC08CC /* CabbageStoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FFC5221E3D03066C1A45DEB238273 /* CabbageStoreSubscriber.swift */; };
-		7F7EC56D9CA17FE75C3D02BD6B9BA7DD /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F9BB165FB6CFD6FEF035016EB071CA /* State.swift */; };
 		84F64245A9598357482DEA077019590E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		855EF30240D8B051E6F8CE9FC11735E2 /* CGFloat+Cabbage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209409C7EE870D9DA0ED26FF72285453 /* CGFloat+Cabbage.swift */; };
 		858D3CA5CBDE85774E82B3F4D4F6D9AF /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FC83115BE318FE6323B0F9EFF8AD4E /* ConstraintInsetTarget.swift */; };
 		8597E2C09AB7B721AC06399CA378A1C0 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8146EFFBA522D816BA04C83EB0DF7B /* LayoutConstraint.swift */; };
-		85A5F0BE9DF00DBC8A8697184EC1260D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59C9F1BA1C88DD18D9AA64484AC4797 /* Store.swift */; };
 		872265AA95E5433315D6358700E82D82 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13073B460DCA5A885901AEF7AB347371 /* ConstraintLayoutGuide.swift */; };
 		88E2AA157AD08FE54B74E5869DAE4422 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7D51E12631CD67464E874DF8B217B /* ConstraintMakerEditable.swift */; };
-		8926D463E06FB61BE585698CFA6810E7 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F961994CEAF153F5C9DDA287F83E4F /* Reducer.swift */; };
+		88E477F1A9A7215C4B46C200347F242D /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4477983D9D02ED64A229783D730C5745 /* Reducer.swift */; };
 		89392DFBF448ED31D8DC88CF08C4E107 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EF9279D230438E1DF533F8BCBEC262 /* ConstraintOffsetTarget.swift */; };
 		8AD2AB4BBE48019147C2E8A7E33AB6BA /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB07029E1AB6B48844606B94F63C7D3 /* ConstraintView.swift */; };
-		936AF694AA78CE636AD8635C81C6848A /* CabbageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB3554D1180AE6A748989F596DDA0BE /* CabbageStore.swift */; };
 		9B3810AFEA22EC57356AE1AD27E01566 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF82A6ACAA600E4D7DB0ED2CD8810552 /* UILayoutSupport+Extensions.swift */; };
 		9DF98D77CA92324199E9AB785F1847BF /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22B2BDC310B15F7DDC06B930A34C08 /* ConstraintViewDSL.swift */; };
+		A8DF01601E3FED1AC5D78B0CEAB0940A /* StoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD64595D9E66281FB7A0903E7A461FC /* StoreSubscriber.swift */; };
 		A92883301FFE6A327349E5E0DA1E2D4A /* Pods-Cabbage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A08EF069362A5B5BFB4B42AFC469C60 /* Pods-Cabbage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF01EBFAFAEEDE93BA701429BF54C68 /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7803B067831726F3386D50AAD2E2A8E3 /* StoreType.swift */; };
 		ACEB3EE63B8A6E609F5221CBC811DCD5 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB2E01187F1C611F313E97AF0FA73C9 /* SnapKit-dummy.m */; };
 		B03EA7505633B729F60A932847234A28 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29DA246624787CFC6FA77FF2F1B30237 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5E9B2509F7B40932F194A3BB24232D4 /* Cabbage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B1335CB8E3F071970308045ADD6615 /* Cabbage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7FE46FF01256FE184824DCCEF23D045 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F49073113894FE292B3687B4ECB69 /* ConstraintLayoutSupportDSL.swift */; };
+		B950EE5226F2F09C43E004D663AC64FB /* CabbageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D0E0174BC0317F9CCA4602C134E3C /* CabbageTableViewCell.swift */; };
 		C1ADF575BE877085E9A791D8FDD998BE /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A604DEAFF03D03BC699E72E10C67B71 /* ConstraintConfig.swift */; };
 		C1B52095D8461B7FB036CB880AE891E9 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1CD2DEFFFFBE20323DBA9A34D77244 /* ConstraintLayoutGuideDSL.swift */; };
-		C54C957C4693234284612A3D9AFA5BA7 /* DispatchingStoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13598FB40016D68CC3FE49D89AF930E /* DispatchingStoreType.swift */; };
+		C51026A438E1D1DCA2249DCA0E5315B8 /* CabbageTableViewHeaderFooterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621AAE9A303B110975BA70C6F3A7004F /* CabbageTableViewHeaderFooterModel.swift */; };
 		C63B0AD9DFD5332A282ABEC90894324C /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542616B9ACD95DF820563AF6812054DB /* ConstraintView+Extensions.swift */; };
 		CE92297AC4BB84133FA0B68926028569 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DECDB5C71A137EEEA16CEB2DD800330 /* ConstraintItem.swift */; };
 		D061700253F1079027416B4FECF88015 /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B3F31044A960BEE2B4EA495062C50 /* LayoutConstraintItem.swift */; };
-		D32C88098B28DE5C2779B4DFB364AA70 /* CabbageStateType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BDD8210813D1BB7422C988933D33BD /* CabbageStateType.swift */; };
+		D3C644E102FC71CA72BAEE96E284E110 /* CabbageStoreSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C0ACB5A0FE92C124127FB75742A98 /* CabbageStoreSubscriber.swift */; };
+		D3F8BF7607CF7CA61F60FE4EB837220C /* Cabbage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC72E9832CFEA7E4D11A3DD418F418F1 /* Cabbage-dummy.m */; };
+		D42B5095EA4632697C9690A2AAD034FD /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00A9B1B3CF6FCEF87D04323F29F8640 /* Action.swift */; };
 		D5C975B867D6E9B4C9CB5FEF6E22953E /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9367805C3148DFB7993AC74CFD215DC2 /* ConstraintLayoutGuide+Extensions.swift */; };
-		E03B3E13F4AB046255A7BBBDF62C8EC4 /* CabbageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F580289D794A1C8E70505AA6BFE3BBEB /* CabbageView.swift */; };
+		DF99A3484CF498A36C894AFE8172987C /* CabbageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD0FEB7868DB131FB2D0D8D6A0CDA59 /* CabbageStore.swift */; };
+		E1A6F4A9700F40692E367B2BF739948A /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4BB83D52B9C250CA589204E5C6847D /* Middleware.swift */; };
 		E59936244AB4C261C724B84446D45871 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEFE805792598886FC384C0B0A3EF38 /* ConstraintDSL.swift */; };
-		E8E94664465E8B0462B2F371AB882513 /* CabbageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA42665E7F541A2983106E58F59A44 /* CabbageController.swift */; };
 		E92464D7997811C7FC450A5CF408F5D0 /* Pods-Cabbage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5447C669CACA94CAE885B58EC7F41B98 /* Pods-Cabbage_Tests-dummy.m */; };
-		EA3C766EE4AD09AAD7EDDD40F41976EC /* CabbageReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE849CCC70D90C43A365A7C5C770561 /* CabbageReducer.swift */; };
 		EA3F294DE2DDF7954A8D7BE84D863F10 /* Pods-Cabbage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D5F3605A7FE63B0B0D9C1CAF977CF6 /* Pods-Cabbage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDCA5F7D8160516C7E45A7D43D9E8254 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B293100C0290E65E0BC870B684749EE /* ConstraintInsets.swift */; };
-		EE1AE603E0C2FEF35711D1D41A08E938 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB380DD36B8499E01981B9143884694 /* Coding.swift */; };
 		EEF448D8FCC2C00A650BA5CF21930FB2 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D51CAB784598D20B25F8D8697936547 /* ConstraintPriority.swift */; };
 		F27C8897D9B3A7B25648C9C37AE807E2 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A462519E1C4775536E35556F3795C991 /* ConstraintLayoutSupport.swift */; };
 		F3B19CF2F61D5AB247E36F97B6F36620 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869EE947ABEB849C41E6E2759CB73461 /* ConstraintMakerPriortizable.swift */; };
-		F8B133E655E65B11322D12C0647E13C1 /* CabbageMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C8541387C79BC1C06D53629DA1981 /* CabbageMiddleware.swift */; };
 		FCABC11D0AEDD53CD89A0E1E6F6228A3 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843C3DF394CE5E92C0ADD53F355D0CC /* ConstraintMakerFinalizable.swift */; };
 		FDF077BFD190CDC595BFB0A57D160D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -98,103 +98,103 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC12A70AD0999F73C55EC0F2B92DA9D6;
+			remoteGlobalIDString = 01D4E0DAC59A05841721167623D57072;
 			remoteInfo = Cabbage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02DA42665E7F541A2983106E58F59A44 /* CabbageController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageController.swift; sourceTree = "<group>"; };
 		06C2911388ED349020316062C27A0552 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		08339472A63400BCB1D919DE073FC9F9 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		0843C3DF394CE5E92C0ADD53F355D0CC /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
 		0A08EF069362A5B5BFB4B42AFC469C60 /* Pods-Cabbage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cabbage_Example-umbrella.h"; sourceTree = "<group>"; };
 		0A604DEAFF03D03BC699E72E10C67B71 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
 		0B0A453636C1F962DEEDAD9FD8D1FA51 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		0BB3554D1180AE6A748989F596DDA0BE /* CabbageStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageStore.swift; sourceTree = "<group>"; };
 		0C76EA1ABFB73C1FDB624640B6B30677 /* Pods-Cabbage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cabbage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		107AF69DEA767C3E03E0D098182A5862 /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoreSubscriber.swift; sourceTree = "<group>"; };
-		12BB85841F1DB14000EA7947 /* CabbageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageCache.swift; sourceTree = "<group>"; };
-		12BB85861F1DDB0600EA7947 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
-		12BB85881F1DE57100EA7947 /* CabbageTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageTest.swift; sourceTree = "<group>"; };
-		12BB85971F1F47ED00EA7947 /* CabbageTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageTableView.swift; sourceTree = "<group>"; };
-		12BB85A51F1F832000EA7947 /* CabbageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageModel.swift; sourceTree = "<group>"; };
-		12BB85A71F20765500EA7947 /* CabbageTableViewCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageTableViewCellModel.swift; sourceTree = "<group>"; };
-		12BB85A91F20819C00EA7947 /* CabbageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageTableViewCell.swift; sourceTree = "<group>"; };
-		12BB85AB1F20A86300EA7947 /* CabbageTableViewHeaderFooterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageTableViewHeaderFooterModel.swift; sourceTree = "<group>"; };
-		12BB85B01F20A9C500EA7947 /* CGFloat+Cabbage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Cabbage.swift"; sourceTree = "<group>"; };
-		12BB85B21F20AE4700EA7947 /* CabbageTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
-		12BB85B61F20BC5700EA7947 /* CabbageObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageObject.swift; sourceTree = "<group>"; };
-		12BB85B81F219FD600EA7947 /* CabbageReuse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabbageReuse.swift; sourceTree = "<group>"; };
 		12E88B541786D560F47EDA8B1F69331F /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		13073B460DCA5A885901AEF7AB347371 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		184D0E0174BC0317F9CCA4602C134E3C /* CabbageTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageTableViewCell.swift; sourceTree = "<group>"; };
 		1A6BDB5F0FBCAC3506F22584473F6020 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DACDC63D7707D735A8AB45E2D56A57B /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
+		209409C7EE870D9DA0ED26FF72285453 /* CGFloat+Cabbage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CGFloat+Cabbage.swift"; sourceTree = "<group>"; };
+		21F892C0CEE6E93AC56560A7742EAA85 /* CabbageTableViewCellModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageTableViewCellModel.swift; sourceTree = "<group>"; };
 		249139395DDF489689BE938262910722 /* Pods-Cabbage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cabbage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		26647077880FA4C271316D029DEA9481 /* Pods-Cabbage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cabbage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		29DA246624787CFC6FA77FF2F1B30237 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		2C0F49073113894FE292B3687B4ECB69 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		3362CC8ABFFED392C499F4748C21222D /* CabbageTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageTest.swift; sourceTree = "<group>"; };
 		33D436BD117EB44D37337C0EE15401A9 /* Pods_Cabbage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabbage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		359C2B9292B588439EC410BDD60AC4ED /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		3719366B3B215C47A625FE89853B6E6A /* Pods_Cabbage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabbage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D41E08E365B8155DF32EB5D064DEBD /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		3AB380DD36B8499E01981B9143884694 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
-		49F961994CEAF153F5C9DDA287F83E4F /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
-		4D7C8541387C79BC1C06D53629DA1981 /* CabbageMiddleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageMiddleware.swift; sourceTree = "<group>"; };
-		4E4BED1F6E9C7A2732C0AAF5DC778CE8 /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		3C0F9BBE944A92B0C7D33FBD65FD061F /* CabbageAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageAction.swift; sourceTree = "<group>"; };
+		4175070CA22E5AED883BFA643D0F04BD /* CabbageTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageTableViewController.swift; sourceTree = "<group>"; };
+		41D4B61D6C3414A32EC16807AA98E75B /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4477983D9D02ED64A229783D730C5745 /* Reducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		483CCC0EBDCE9548B8815EB1A54C120B /* CabbageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageView.swift; sourceTree = "<group>"; };
+		4AA4D8DC419A83F8247C9F434325A648 /* CabbageMiddleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageMiddleware.swift; sourceTree = "<group>"; };
 		4E96B01A76C76056A2DD00DF0911101B /* Cabbage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cabbage.xcconfig; sourceTree = "<group>"; };
 		518C607F1E4A4AB0B0F6BE453FBC1ACB /* Pods-Cabbage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cabbage_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		51B1335CB8E3F071970308045ADD6615 /* Cabbage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cabbage-umbrella.h"; sourceTree = "<group>"; };
 		542616B9ACD95DF820563AF6812054DB /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		5447C669CACA94CAE885B58EC7F41B98 /* Pods-Cabbage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cabbage_Tests-dummy.m"; sourceTree = "<group>"; };
 		54B04DD12F6342C19E0EF6B3167130D3 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		54F9BB165FB6CFD6FEF035016EB071CA /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		56CA20B84E14D5E13E53D5A435DE588C /* CabbageAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageAction.swift; sourceTree = "<group>"; };
+		55C384643AE0AD04F4CD6B85B9C9367F /* CabbageReuse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageReuse.swift; sourceTree = "<group>"; };
+		585F416EBD3D6184358000A5735871F2 /* CabbageController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageController.swift; sourceTree = "<group>"; };
 		593ADC9CCA6A730223A7A1761308569E /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		5C54F92362128989B5E42EE4DE92B5F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60721D19035EB6BF51D36C280E446AB1 /* Pods-Cabbage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cabbage_Tests.modulemap"; sourceTree = "<group>"; };
+		60A0BEFF82F8B5A2407E42106EF2F7EC /* CabbageStateType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageStateType.swift; sourceTree = "<group>"; };
+		621AAE9A303B110975BA70C6F3A7004F /* CabbageTableViewHeaderFooterModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageTableViewHeaderFooterModel.swift; sourceTree = "<group>"; };
 		62EF9279D230438E1DF533F8BCBEC262 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		642107AF2D8EFC309FE5CBE41CF1FC0C /* Pods-Cabbage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cabbage_Example-resources.sh"; sourceTree = "<group>"; };
 		646B1C84CB8B9ED6A88495862C479990 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		6580BC912561D405845ED2A61C49CDBF /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		667FFC5221E3D03066C1A45DEB238273 /* CabbageStoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageStoreSubscriber.swift; sourceTree = "<group>"; };
 		6A6B3F31044A960BEE2B4EA495062C50 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		6B293100C0290E65E0BC870B684749EE /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		6C1CD2DEFFFFBE20323DBA9A34D77244 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		6C9CA91614DA4C5F5CC0FB5B5E614CE7 /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
 		6D51CAB784598D20B25F8D8697936547 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		6DECDB5C71A137EEEA16CEB2DD800330 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		76A18482AFFFB1310F0A5905ECDFC293 /* Pods-Cabbage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cabbage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		78A9F9A5E45B869D80E14A1693712A75 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
+		7803B067831726F3386D50AAD2E2A8E3 /* StoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
 		7D8146EFFBA522D816BA04C83EB0DF7B /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		7DD0FEB7868DB131FB2D0D8D6A0CDA59 /* CabbageStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageStore.swift; sourceTree = "<group>"; };
 		869EE947ABEB849C41E6E2759CB73461 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		8A4BB83D52B9C250CA589204E5C6847D /* Middleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
 		8BF5ABECBF31CFE96E25BFAA8297A23B /* Pods-Cabbage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cabbage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8DEC92430472C5AD046E7F861C0EA03C /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		8DEFE805792598886FC384C0B0A3EF38 /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		9367805C3148DFB7993AC74CFD215DC2 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9597B123C364DE54362EF9458A92E7CB /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Assertions.swift; sourceTree = "<group>"; };
 		9C61E5E8C36DDD9AA0DC8F07C7BC2E6D /* Pods-Cabbage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cabbage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9CB07029E1AB6B48844606B94F63C7D3 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
-		A13598FB40016D68CC3FE49D89AF930E /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DispatchingStoreType.swift; sourceTree = "<group>"; };
 		A391476119F72440624E203974C595FC /* Pods-Cabbage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cabbage_Example-dummy.m"; sourceTree = "<group>"; };
 		A462519E1C4775536E35556F3795C991 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		A8178A1B20CC3EA32E4E9CE0B477748C /* CabbageTableViewHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageTableViewHeaderFooterView.swift; sourceTree = "<group>"; };
 		A97BF479EF83030519F90BB02F905564 /* Pods-Cabbage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cabbage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABC30665F5851A91F53B06C1C5DB086F /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		AE22B2BDC310B15F7DDC06B930A34C08 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
-		AEE849CCC70D90C43A365A7C5C770561 /* CabbageReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageReducer.swift; sourceTree = "<group>"; };
+		AF9930BC5A73A807813440FB77A857D8 /* CabbageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageCache.swift; sourceTree = "<group>"; };
 		B0D5F3605A7FE63B0B0D9C1CAF977CF6 /* Pods-Cabbage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cabbage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B20452FAB24B93E8C085299D76639734 /* Cabbage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cabbage.modulemap; sourceTree = "<group>"; };
+		B2E64ED2EF69A151D93AED1B2F10A2A7 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		B99C3D2FCBFBC39BC1187C54AE25D51A /* Cabbage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cabbage-prefix.pch"; sourceTree = "<group>"; };
+		BBD64595D9E66281FB7A0903E7A461FC /* StoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoreSubscriber.swift; sourceTree = "<group>"; };
 		BC72E9832CFEA7E4D11A3DD418F418F1 /* Cabbage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cabbage-dummy.m"; sourceTree = "<group>"; };
-		BE24901B697BC20F08CA0963901A142D /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TypeHelper.swift; sourceTree = "<group>"; };
 		C073087BA7FC4B3F2B8CEDBCAD1F0D70 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E034FE0712615E2EBE146CD4FBF26F /* Pods-Cabbage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cabbage_Example.modulemap"; sourceTree = "<group>"; };
 		C78D9100A663E6501F912089BC90230C /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
 		C7EB81970CCCA59CEAAF0E4C71F71153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C89B8D0739E688A47298C95FAF5B0A6B /* Assertions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Assertions.swift; sourceTree = "<group>"; };
 		CFD7D51E12631CD67464E874DF8B217B /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		D5BDD8210813D1BB7422C988933D33BD /* CabbageStateType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageStateType.swift; sourceTree = "<group>"; };
+		D09C0ACB5A0FE92C124127FB75742A98 /* CabbageStoreSubscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageStoreSubscriber.swift; sourceTree = "<group>"; };
+		D2877E3D4BDC62B5930E4B544BFC465F /* CabbageModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageModel.swift; sourceTree = "<group>"; };
 		DC8312E198200C0AEA234E70043168A5 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		DCE49C15FF3AF18B74C136D3176CE394 /* TypeHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TypeHelper.swift; sourceTree = "<group>"; };
+		E00A9B1B3CF6FCEF87D04323F29F8640 /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		E13BCF5351B53B0BED5349D73ACFDCAA /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		E18126C4F0019CF2D8B5B88DD470DF3E /* CabbageObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageObject.swift; sourceTree = "<group>"; };
+		E490722CCE2208DBFC88D9B4E3ED7D54 /* DispatchingStoreType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DispatchingStoreType.swift; sourceTree = "<group>"; };
 		E5FC83115BE318FE6323B0F9EFF8AD4E /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		E66BEE4BBB03D4B69C3C7591863C58BD /* Pods-Cabbage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cabbage_Tests-resources.sh"; sourceTree = "<group>"; };
 		E9E73ECD75B6E0FA50A3DAA9CE69F1E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -202,11 +202,11 @@
 		ED0C8B13A791C8703FF41B098B357F14 /* Cabbage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cabbage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF82A6ACAA600E4D7DB0ED2CD8810552 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		F1DB71D626C0B342170CC6F65006916A /* Pods-Cabbage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cabbage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F580289D794A1C8E70505AA6BFE3BBEB /* CabbageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageView.swift; sourceTree = "<group>"; };
-		F59C9F1BA1C88DD18D9AA64484AC4797 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		FB0A039D4342502CD7655043A004DE35 /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		FC80D101E67AAC55EB7A7DA474138F29 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		FDB2E01187F1C611F313E97AF0FA73C9 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		FF61C74E3EAC23BDA90C42D4F63792C7 /* Pods-Cabbage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cabbage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FF75ADF52E752AB03A512610D25E1ECF /* CabbageReducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CabbageReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,25 +234,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E01EF8CE65C12ADC155BCF835E387B3A /* Frameworks */ = {
+		CBD7D06A4E60973439F17812AEDB25AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E84B6E2604E425B3842935B5E70CDC /* Foundation.framework in Frameworks */,
+				0F7F785EA34F560DC4FC3FB1C7EB3155 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		036366C5FE57A8F868A64E5A9C941126 /* Utils */ = {
+		008A77AA3A30FD8F310AFF2A773B7929 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				C89B8D0739E688A47298C95FAF5B0A6B /* Assertions.swift */,
-				3AB380DD36B8499E01981B9143884694 /* Coding.swift */,
-				BE24901B697BC20F08CA0963901A142D /* TypeHelper.swift */,
+				55C384643AE0AD04F4CD6B85B9C9367F /* CabbageReuse.swift */,
+				4175070CA22E5AED883BFA643D0F04BD /* CabbageTableViewController.swift */,
+				184D0E0174BC0317F9CCA4602C134E3C /* CabbageTableViewCell.swift */,
+				21F892C0CEE6E93AC56560A7742EAA85 /* CabbageTableViewCellModel.swift */,
+				621AAE9A303B110975BA70C6F3A7004F /* CabbageTableViewHeaderFooterModel.swift */,
+				A8178A1B20CC3EA32E4E9CE0B477748C /* CabbageTableViewHeaderFooterView.swift */,
 			);
-			path = Utils;
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		06CBBD1DBE2A8A63E49F4170634BB6A2 /* Targets Support Files */ = {
@@ -264,48 +267,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		0884B0C97EC12A9FFD5D20D64DCECDEF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				209409C7EE870D9DA0ED26FF72285453 /* CGFloat+Cabbage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		1284580C67B405ED326BAAD1FDC0B0D1 /* Cabbage */ = {
 			isa = PBXGroup;
 			children = (
-				FCB5A9082DD3BA26F798A256E815966D /* Cabbage */,
+				4403720313D1CEF3B7F85DC5F47F1405 /* Cabbage */,
 				861062EE619D9AE63F79ADB899AA0F64 /* Support Files */,
 			);
 			name = Cabbage;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		12BB85831F1DB0E300EA7947 /* Unit */ = {
-			isa = PBXGroup;
-			children = (
-				12BB85B61F20BC5700EA7947 /* CabbageObject.swift */,
-				12BB85A51F1F832000EA7947 /* CabbageModel.swift */,
-				F580289D794A1C8E70505AA6BFE3BBEB /* CabbageView.swift */,
-				02DA42665E7F541A2983106E58F59A44 /* CabbageController.swift */,
-				12BB85841F1DB14000EA7947 /* CabbageCache.swift */,
-				12BB85881F1DE57100EA7947 /* CabbageTest.swift */,
-			);
-			name = Unit;
-			sourceTree = "<group>";
-		};
-		12BB85A41F1F82CC00EA7947 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				12BB85B81F219FD600EA7947 /* CabbageReuse.swift */,
-				12BB85A71F20765500EA7947 /* CabbageTableViewCellModel.swift */,
-				12BB85AB1F20A86300EA7947 /* CabbageTableViewHeaderFooterModel.swift */,
-				12BB85A91F20819C00EA7947 /* CabbageTableViewCell.swift */,
-				12BB85B21F20AE4700EA7947 /* CabbageTableViewHeaderFooterView.swift */,
-				12BB85971F1F47ED00EA7947 /* CabbageTableView.swift */,
-			);
-			name = TableView;
-			sourceTree = "<group>";
-		};
-		12BB85AF1F20A9B200EA7947 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				12BB85B01F20A9C500EA7947 /* CGFloat+Cabbage.swift */,
-			);
-			name = Extension;
 			sourceTree = "<group>";
 		};
 		147972D77B739F428A470308329F077F /* Pods-Cabbage_Example */ = {
@@ -334,15 +311,73 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4D4D0C8B5428F78D51CCE76FA70C6ECC /* Classes */ = {
+		41D7FB50117F588C9A01A698BBC0B885 /* ReSwift4.0.0 */ = {
 			isa = PBXGroup;
 			children = (
-				12BB85AF1F20A9B200EA7947 /* Extension */,
-				12BB85A41F1F82CC00EA7947 /* TableView */,
-				12BB85861F1DDB0600EA7947 /* Global.swift */,
-				EF4FC7299D173EC09095DA619EFAE0EE /* Base */,
-				DCF4F937A3545917275AA006BAF1490D /* Core */,
-				12BB85831F1DB0E300EA7947 /* Unit */,
+				72755F289826682223EAB064F10082EC /* CoreTypes */,
+				8A74E4F62749D98BE102D680CB72B9F2 /* Utils */,
+			);
+			path = ReSwift4.0.0;
+			sourceTree = "<group>";
+		};
+		4403720313D1CEF3B7F85DC5F47F1405 /* Cabbage */ = {
+			isa = PBXGroup;
+			children = (
+				7AF5E29C478A6326AC7C81AE50C325E6 /* Classes */,
+			);
+			path = Cabbage;
+			sourceTree = "<group>";
+		};
+		5C376B230737DB231CDF9C510A50935F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				41D7FB50117F588C9A01A698BBC0B885 /* ReSwift4.0.0 */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		72755F289826682223EAB064F10082EC /* CoreTypes */ = {
+			isa = PBXGroup;
+			children = (
+				E00A9B1B3CF6FCEF87D04323F29F8640 /* Action.swift */,
+				E490722CCE2208DBFC88D9B4E3ED7D54 /* DispatchingStoreType.swift */,
+				8A4BB83D52B9C250CA589204E5C6847D /* Middleware.swift */,
+				4477983D9D02ED64A229783D730C5745 /* Reducer.swift */,
+				B2E64ED2EF69A151D93AED1B2F10A2A7 /* State.swift */,
+				FB0A039D4342502CD7655043A004DE35 /* Store.swift */,
+				BBD64595D9E66281FB7A0903E7A461FC /* StoreSubscriber.swift */,
+				7803B067831726F3386D50AAD2E2A8E3 /* StoreType.swift */,
+				E13BCF5351B53B0BED5349D73ACFDCAA /* Subscription.swift */,
+			);
+			path = CoreTypes;
+			sourceTree = "<group>";
+		};
+		7806DABB399EC88F7453B09C3E12A516 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3C0F9BBE944A92B0C7D33FBD65FD061F /* CabbageAction.swift */,
+				4AA4D8DC419A83F8247C9F434325A648 /* CabbageMiddleware.swift */,
+				FF75ADF52E752AB03A512610D25E1ECF /* CabbageReducer.swift */,
+				60A0BEFF82F8B5A2407E42106EF2F7EC /* CabbageStateType.swift */,
+				7DD0FEB7868DB131FB2D0D8D6A0CDA59 /* CabbageStore.swift */,
+				D09C0ACB5A0FE92C124127FB75742A98 /* CabbageStoreSubscriber.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7AF5E29C478A6326AC7C81AE50C325E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				585F416EBD3D6184358000A5735871F2 /* CabbageController.swift */,
+				D2877E3D4BDC62B5930E4B544BFC465F /* CabbageModel.swift */,
+				E18126C4F0019CF2D8B5B88DD470DF3E /* CabbageObject.swift */,
+				483CCC0EBDCE9548B8815EB1A54C120B /* CabbageView.swift */,
+				41D4B61D6C3414A32EC16807AA98E75B /* Global.swift */,
+				5C376B230737DB231CDF9C510A50935F /* Base */,
+				7806DABB399EC88F7453B09C3E12A516 /* Core */,
+				0884B0C97EC12A9FFD5D20D64DCECDEF /* Extension */,
+				008A77AA3A30FD8F310AFF2A773B7929 /* TableView */,
+				7EB973BD6AB56A69344854586F504C9D /* Unit */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -400,6 +435,15 @@
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
+		7EB973BD6AB56A69344854586F504C9D /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				AF9930BC5A73A807813440FB77A857D8 /* CabbageCache.swift */,
+				3362CC8ABFFED392C499F4748C21222D /* CabbageTest.swift */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
 		861062EE619D9AE63F79ADB899AA0F64 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -414,37 +458,22 @@
 			path = "Example/Pods/Target Support Files/Cabbage";
 			sourceTree = "<group>";
 		};
+		8A74E4F62749D98BE102D680CB72B9F2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9597B123C364DE54362EF9458A92E7CB /* Assertions.swift */,
+				1DACDC63D7707D735A8AB45E2D56A57B /* Coding.swift */,
+				DCE49C15FF3AF18B74C136D3176CE394 /* TypeHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A24957659B562070C6FD54002E0330AF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				7E40BDD214753E1F70F3A4ABE61A6C7A /* SnapKit */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		A2E35044FFCFC61EB27BAF731D3FFD16 /* CoreTypes */ = {
-			isa = PBXGroup;
-			children = (
-				08339472A63400BCB1D919DE073FC9F9 /* Action.swift */,
-				A13598FB40016D68CC3FE49D89AF930E /* DispatchingStoreType.swift */,
-				6C9CA91614DA4C5F5CC0FB5B5E614CE7 /* Middleware.swift */,
-				49F961994CEAF153F5C9DDA287F83E4F /* Reducer.swift */,
-				54F9BB165FB6CFD6FEF035016EB071CA /* State.swift */,
-				F59C9F1BA1C88DD18D9AA64484AC4797 /* Store.swift */,
-				107AF69DEA767C3E03E0D098182A5862 /* StoreSubscriber.swift */,
-				78A9F9A5E45B869D80E14A1693712A75 /* StoreType.swift */,
-				4E4BED1F6E9C7A2732C0AAF5DC778CE8 /* Subscription.swift */,
-			);
-			path = CoreTypes;
-			sourceTree = "<group>";
-		};
-		A6304E2821DEB73113FC70465DC18C70 /* ReSwift4.0.0 */ = {
-			isa = PBXGroup;
-			children = (
-				A2E35044FFCFC61EB27BAF731D3FFD16 /* CoreTypes */,
-				036366C5FE57A8F868A64E5A9C941126 /* Utils */,
-			);
-			path = ReSwift4.0.0;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -506,35 +535,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DCF4F937A3545917275AA006BAF1490D /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				56CA20B84E14D5E13E53D5A435DE588C /* CabbageAction.swift */,
-				4D7C8541387C79BC1C06D53629DA1981 /* CabbageMiddleware.swift */,
-				AEE849CCC70D90C43A365A7C5C770561 /* CabbageReducer.swift */,
-				D5BDD8210813D1BB7422C988933D33BD /* CabbageStateType.swift */,
-				0BB3554D1180AE6A748989F596DDA0BE /* CabbageStore.swift */,
-				667FFC5221E3D03066C1A45DEB238273 /* CabbageStoreSubscriber.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		EF4FC7299D173EC09095DA619EFAE0EE /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				A6304E2821DEB73113FC70465DC18C70 /* ReSwift4.0.0 */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		FCB5A9082DD3BA26F798A256E815966D /* Cabbage */ = {
-			isa = PBXGroup;
-			children = (
-				4D4D0C8B5428F78D51CCE76FA70C6ECC /* Classes */,
-			);
-			path = Cabbage;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -554,11 +554,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6D8748B3B1AE23784320BDA9350F788 /* Headers */ = {
+		99D7CA7E24C688FE6DC905B8B1F48E9F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5E9B2509F7B40932F194A3BB24232D4 /* Cabbage-umbrella.h in Headers */,
+				50BF94F734DE8CE05019B4B3144481EE /* Cabbage-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +573,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		01D4E0DAC59A05841721167623D57072 /* Cabbage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C468A9977C4D9A622E6E4922A2C4F53 /* Build configuration list for PBXNativeTarget "Cabbage" */;
+			buildPhases = (
+				410D9D0B8676F4EA55D7FAA4D5161287 /* Sources */,
+				CBD7D06A4E60973439F17812AEDB25AC /* Frameworks */,
+				99D7CA7E24C688FE6DC905B8B1F48E9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cabbage;
+			productName = Cabbage;
+			productReference = ED0C8B13A791C8703FF41B098B357F14 /* Cabbage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		055EB8779852330956D5D96297A1D6AE /* Pods-Cabbage_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0392E76A1307C86EB805D80CC9979827 /* Build configuration list for PBXNativeTarget "Pods-Cabbage_Tests" */;
@@ -605,23 +622,6 @@
 			name = SnapKit;
 			productName = SnapKit;
 			productReference = C073087BA7FC4B3F2B8CEDBCAD1F0D70 /* SnapKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AC12A70AD0999F73C55EC0F2B92DA9D6 /* Cabbage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FE60E5D640AB251D263BA879A1CAC93 /* Build configuration list for PBXNativeTarget "Cabbage" */;
-			buildPhases = (
-				3F0B2818D1415B3518BAFEE13BFAE949 /* Sources */,
-				E01EF8CE65C12ADC155BCF835E387B3A /* Frameworks */,
-				B6D8748B3B1AE23784320BDA9350F788 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Cabbage;
-			productName = Cabbage;
-			productReference = ED0C8B13A791C8703FF41B098B357F14 /* Cabbage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DA21D1A7C897E4FA3CD152BB41E57406 /* Pods-Cabbage_Example */ = {
@@ -664,7 +664,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC12A70AD0999F73C55EC0F2B92DA9D6 /* Cabbage */,
+				01D4E0DAC59A05841721167623D57072 /* Cabbage */,
 				DA21D1A7C897E4FA3CD152BB41E57406 /* Pods-Cabbage_Example */,
 				055EB8779852330956D5D96297A1D6AE /* Pods-Cabbage_Tests */,
 				1F87FFBCF87E97536254A4E335249BCD /* SnapKit */,
@@ -681,43 +681,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F0B2818D1415B3518BAFEE13BFAE949 /* Sources */ = {
+		410D9D0B8676F4EA55D7FAA4D5161287 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE5A1FFB55796117F43FA419A88F9E6 /* Action.swift in Sources */,
-				12BB85A81F20765500EA7947 /* CabbageTableViewCellModel.swift in Sources */,
-				6C58B957F60A57EA819B905A15AE674C /* Assertions.swift in Sources */,
-				6780137628B4ABBD5E6B5AC6F712BBA7 /* Cabbage-dummy.m in Sources */,
-				12634014F0C9573E97E2CAE341E17E06 /* CabbageAction.swift in Sources */,
-				F8B133E655E65B11322D12C0647E13C1 /* CabbageMiddleware.swift in Sources */,
-				12BB85851F1DB14000EA7947 /* CabbageCache.swift in Sources */,
-				EA3C766EE4AD09AAD7EDDD40F41976EC /* CabbageReducer.swift in Sources */,
-				12BB85871F1DDB0600EA7947 /* Global.swift in Sources */,
-				D32C88098B28DE5C2779B4DFB364AA70 /* CabbageStateType.swift in Sources */,
-				12BB85B11F20A9C500EA7947 /* CGFloat+Cabbage.swift in Sources */,
-				936AF694AA78CE636AD8635C81C6848A /* CabbageStore.swift in Sources */,
-				7B6C789127D2829EB1F82D77E7AC08CC /* CabbageStoreSubscriber.swift in Sources */,
-				12BB85B91F219FD600EA7947 /* CabbageReuse.swift in Sources */,
-				E03B3E13F4AB046255A7BBBDF62C8EC4 /* CabbageView.swift in Sources */,
-				12BB85AA1F20819C00EA7947 /* CabbageTableViewCell.swift in Sources */,
-				12BB85981F1F47ED00EA7947 /* CabbageTableView.swift in Sources */,
-				12BB85A61F1F832000EA7947 /* CabbageModel.swift in Sources */,
-				E8E94664465E8B0462B2F371AB882513 /* CabbageController.swift in Sources */,
-				EE1AE603E0C2FEF35711D1D41A08E938 /* Coding.swift in Sources */,
-				C54C957C4693234284612A3D9AFA5BA7 /* DispatchingStoreType.swift in Sources */,
-				0765F95F829439E9830F396D902BB854 /* Middleware.swift in Sources */,
-				8926D463E06FB61BE585698CFA6810E7 /* Reducer.swift in Sources */,
-				7F7EC56D9CA17FE75C3D02BD6B9BA7DD /* State.swift in Sources */,
-				12BB85B31F20AE4700EA7947 /* CabbageTableViewHeaderFooterView.swift in Sources */,
-				12BB85AC1F20A86300EA7947 /* CabbageTableViewHeaderFooterModel.swift in Sources */,
-				85A5F0BE9DF00DBC8A8697184EC1260D /* Store.swift in Sources */,
-				12BB85B71F20BC5700EA7947 /* CabbageObject.swift in Sources */,
-				454C3EC3808B4B2C12EBCEB9AB4422B1 /* StoreSubscriber.swift in Sources */,
-				07D7B9D73FABBA733AF61DFB7087D79A /* StoreType.swift in Sources */,
-				59E0873DF4B94560B84020E1DF0468D1 /* Subscription.swift in Sources */,
-				12BB85891F1DE57100EA7947 /* CabbageTest.swift in Sources */,
-				3C1DE9375E8356B4D42403176B6150B0 /* TypeHelper.swift in Sources */,
+				D42B5095EA4632697C9690A2AAD034FD /* Action.swift in Sources */,
+				48FBA63DAACD7CBC2B5CC25E8BFFAF89 /* Assertions.swift in Sources */,
+				D3F8BF7607CF7CA61F60FE4EB837220C /* Cabbage-dummy.m in Sources */,
+				28DA53220843C7311183F71C2121215F /* CabbageAction.swift in Sources */,
+				0545E60907F4A76B93B24AE73B2D6A4B /* CabbageCache.swift in Sources */,
+				358645895E7091A742DFF3AB216EE9F6 /* CabbageController.swift in Sources */,
+				3E9D3132667EF63A25EE7FD7765D42C4 /* CabbageMiddleware.swift in Sources */,
+				7409D1699850B5CDFE2FD67FE1EE2026 /* CabbageModel.swift in Sources */,
+				424FB514EB141F739DD72312E245EA0F /* CabbageObject.swift in Sources */,
+				44C40382019BACF773FC85419ACB2D87 /* CabbageReducer.swift in Sources */,
+				211C1CAAEF70F68F9596D3B50A69553D /* CabbageReuse.swift in Sources */,
+				0EB9E8D32C9005A7EE0E9DE32B877B72 /* CabbageStateType.swift in Sources */,
+				DF99A3484CF498A36C894AFE8172987C /* CabbageStore.swift in Sources */,
+				D3C644E102FC71CA72BAEE96E284E110 /* CabbageStoreSubscriber.swift in Sources */,
+				1AF0C4A935A69284DBF9CA32E9D7E8D9 /* CabbageTableViewController.swift in Sources */,
+				B950EE5226F2F09C43E004D663AC64FB /* CabbageTableViewCell.swift in Sources */,
+				11CA080531F3025245F758C1EA30CDC0 /* CabbageTableViewCellModel.swift in Sources */,
+				C51026A438E1D1DCA2249DCA0E5315B8 /* CabbageTableViewHeaderFooterModel.swift in Sources */,
+				6FCB06375AA6143C37307475A3AC10F7 /* CabbageTableViewHeaderFooterView.swift in Sources */,
+				1795D9C07D5FE8020B986927644F4FCD /* CabbageTest.swift in Sources */,
+				739EDB31144AB56E4008A04417CC44F9 /* CabbageView.swift in Sources */,
+				855EF30240D8B051E6F8CE9FC11735E2 /* CGFloat+Cabbage.swift in Sources */,
+				6401A427412C47A7A8062C178EA874D8 /* Coding.swift in Sources */,
+				148766D0E98CF71405B9CCF274F4B8A3 /* DispatchingStoreType.swift in Sources */,
+				64521D8DF9C42A22FE718EB73232C96B /* Global.swift in Sources */,
+				E1A6F4A9700F40692E367B2BF739948A /* Middleware.swift in Sources */,
+				88E477F1A9A7215C4B46C200347F242D /* Reducer.swift in Sources */,
+				319BA11CE8175D60CB1FFCB6F31567B0 /* State.swift in Sources */,
+				74864BE2E0B87E721D77B695821E1680 /* Store.swift in Sources */,
+				A8DF01601E3FED1AC5D78B0CEAB0940A /* StoreSubscriber.swift in Sources */,
+				AAF01EBFAFAEEDE93BA701429BF54C68 /* StoreType.swift in Sources */,
+				25883C605D76EB36FE1946EB638D7176 /* Subscription.swift in Sources */,
+				0408362352E994ECFBB83D52CDD2542A /* TypeHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,7 +776,7 @@
 		C27C46FE14D71BBAA2EFE4DEF1746416 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cabbage;
-			target = AC12A70AD0999F73C55EC0F2B92DA9D6 /* Cabbage */;
+			target = 01D4E0DAC59A05841721167623D57072 /* Cabbage */;
 			targetProxy = F23B10D192CA3BFA1C90FD7A0AD5DA09 /* PBXContainerItemProxy */;
 		};
 		E87947FC5AECAA4F8D1050EA99EE2768 /* PBXTargetDependency */ = {
@@ -939,7 +939,7 @@
 			};
 			name = Release;
 		};
-		68B359A4FC5F6D4F56630F4A3888161C /* Release */ = {
+		51571B9876CC5859904A4A791F301C37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E96B01A76C76056A2DD00DF0911101B /* Cabbage.xcconfig */;
 			buildSettings = {
@@ -972,6 +972,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		51DA9A7D794B08AB99A0B705F8FE061A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E96B01A76C76056A2DD00DF0911101B /* Cabbage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cabbage/Cabbage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cabbage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cabbage/Cabbage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cabbage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6F1D63A05C5025384ACC79837744BDAF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1008,41 +1043,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		711E6712BB6BC300225BBCB18AF78FE3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E96B01A76C76056A2DD00DF0911101B /* Cabbage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Cabbage/Cabbage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cabbage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cabbage/Cabbage.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Cabbage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		787927E92DF4B27A878F21FF4C52B16B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1188,11 +1188,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FE60E5D640AB251D263BA879A1CAC93 /* Build configuration list for PBXNativeTarget "Cabbage" */ = {
+		2C468A9977C4D9A622E6E4922A2C4F53 /* Build configuration list for PBXNativeTarget "Cabbage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				711E6712BB6BC300225BBCB18AF78FE3 /* Debug */,
-				68B359A4FC5F6D4F56630F4A3888161C /* Release */,
+				51DA9A7D794B08AB99A0B705F8FE061A /* Debug */,
+				51571B9876CC5859904A4A791F301C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

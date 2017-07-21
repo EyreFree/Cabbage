@@ -6,15 +6,17 @@ extension HomeController {
         var state = state ?? HomeState()
 
         switch action {
-        case _ as CounterActionIncrease:
-            state.counter += 1
-        case _ as CounterActionDecrease:
-            state.counter -= 1
+        case let actionAdd as ListActionAdd:
+            if let newLine = actionAdd.newLine {
+                state.nameList[0].append(newLine)
+            }
+        case let actionClick as ListActionClick:
+            if let index = actionClick.index {
+                print(index)
+            }
         default:
             break
         }
-
-        printLog(state.counter)
 
         return state
     }
