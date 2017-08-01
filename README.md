@@ -1,4 +1,4 @@
-# Cabbage
+![](https://raw.githubusercontent.com/Vegetarians/Cabbage/assets/cabbage_logo.png)
 
 [![CI Status](http://img.shields.io/travis/EyreFree/Cabbage.svg?style=flat)](https://travis-ci.org/EyreFree/Cabbage)
 [![Version](https://img.shields.io/cocoapods/v/Cabbage.svg?style=flat)](http://cocoapods.org/pods/Cabbage)
@@ -19,7 +19,7 @@ Or you can run the following command in terminal:
 git clone git@github.com:EyreFree/Cabbage.git; cd Cabbage/Example; open 'Cabbage.xcworkspace'
 ```
 
-For more examples: [https://github.com/EyreFree/CabbageExamples](https://github.com/EyreFree/CabbageExamples)
+For more examples: [https://github.com/Vegetarians/CabbageExamples](https://github.com/Vegetarians/CabbageExamples)
 
 ## Requirements
 

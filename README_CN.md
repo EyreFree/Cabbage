@@ -1,4 +1,4 @@
-# Cabbage
+![](https://raw.githubusercontent.com/Vegetarians/Cabbage/assets/cabbage_logo.png)
 
 [![CI Status](http://img.shields.io/travis/EyreFree/Cabbage.svg?style=flat)](https://travis-ci.org/EyreFree/Cabbage)
 [![Version](https://img.shields.io/cocoapods/v/Cabbage.svg?style=flat)](http://cocoapods.org/pods/Cabbage)
@@ -20,7 +20,7 @@ Cabbage 是一个用普通的 iOS 应用开发框架，基于 ReSwift 4.0.0。
 git clone git@github.com:EyreFree/Cabbage.git; cd Cabbage/Example; open 'Cabbage.xcworkspace'
 ```
 
-更多例子: [https://github.com/EyreFree/CabbageExamples](https://github.com/EyreFree/CabbageExamples)
+更多例子: [https://github.com/Vegetarians/CabbageExamples](https://github.com/Vegetarians/CabbageExamples)
 
 ## 环境
 
