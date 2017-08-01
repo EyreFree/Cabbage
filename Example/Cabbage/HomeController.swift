@@ -16,7 +16,7 @@ class HomeController: CabbageTableViewController, CabbageStoreSubscriber {
             return store().state.nameList
         }
         set(newValue) {
-            if let newValue = newValue as? [[HomeController.lineModel]] {
+            if let newValue = newValue as? [[HomeCellModel]] {
                 store().state.nameList = newValue
             }
         }
@@ -25,7 +25,7 @@ class HomeController: CabbageTableViewController, CabbageStoreSubscriber {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "lineModel")
+        tableView.register(HomeCell.self, forCellReuseIdentifier: HomeCellModel().reuseIdentifier())
 
         store().subscribe(self)
         addControls()
@@ -80,8 +80,8 @@ class HomeController: CabbageTableViewController, CabbageStoreSubscriber {
     }
 
     func addClick(_ sender: AnyObject) {
-        let xxx = HomeController.lineModel()
-        xxx.name = textField.text
+        let xxx = HomeCellModel()
+        xxx.title = textField.text ?? ""
         store().dispatch(ListActionAdd(newLine: xxx))
     }
 }

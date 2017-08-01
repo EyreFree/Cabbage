@@ -10,6 +10,8 @@
 		127DEF101EE446EB00D83782 /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127DEF0F1EE446EB00D83782 /* HomeAction.swift */; };
 		12C767CB1EE50448006177C1 /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C767CA1EE50448006177C1 /* HomeReducer.swift */; };
 		12C767CD1EE504A7006177C1 /* HomeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C767CC1EE504A7006177C1 /* HomeStore.swift */; };
+		12DE243F1F30C0370044321A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DE243E1F30C0370044321A /* HomeCell.swift */; };
+		12DE24411F30C04A0044321A /* HomeCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DE24401F30C04A0044321A /* HomeCellModel.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* HomeController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 		127DEF0F1EE446EB00D83782 /* HomeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
 		12C767CA1EE50448006177C1 /* HomeReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
 		12C767CC1EE504A7006177C1 /* HomeStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeStore.swift; sourceTree = "<group>"; };
+		12DE243E1F30C0370044321A /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		12DE24401F30C04A0044321A /* HomeCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCellModel.swift; sourceTree = "<group>"; };
 		2BEB85F6F3F16E91BDE4FCD4 /* Pods-Cabbage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabbage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cabbage_Tests/Pods-Cabbage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2F8C5FE0A8D5DEE441FC55E6 /* Pods_Cabbage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabbage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		403FBB6457DE8A3D442A12BA /* Pods_Cabbage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabbage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +90,8 @@
 		127DEF091EE4444D00D83782 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				12DE24401F30C04A0044321A /* HomeCellModel.swift */,
+				12DE243E1F30C0370044321A /* HomeCell.swift */,
 				607FACD71AFB9204008FA782 /* HomeController.swift */,
 				12C767CC1EE504A7006177C1 /* HomeStore.swift */,
 				127DEF0F1EE446EB00D83782 /* HomeAction.swift */,
@@ -392,6 +398,8 @@
 				12C767CB1EE50448006177C1 /* HomeReducer.swift in Sources */,
 				127DEF101EE446EB00D83782 /* HomeAction.swift in Sources */,
 				12C767CD1EE504A7006177C1 /* HomeStore.swift in Sources */,
+				12DE24411F30C04A0044321A /* HomeCellModel.swift in Sources */,
+				12DE243F1F30C0370044321A /* HomeCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

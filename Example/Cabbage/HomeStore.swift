@@ -2,13 +2,8 @@
 import Cabbage
 
 extension HomeController {
-    class lineModel: CabbageTableViewCellModel {
-        var name: String?
-        var estimatedHeight: CGFloat? = 36
-    }
-
     public struct HomeState: CabbageStateType {
-        var nameList = [[lineModel()]]
+        var nameList = [[HomeCellModel()]]
     }
 
     public func store() -> CabbageStore<HomeState> {

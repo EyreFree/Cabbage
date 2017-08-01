@@ -44,8 +44,8 @@ public extension CabbageTableViewController {
         return headers?[section].title
     }
 
-    @objc(tableView:estimatedHeightForHeaderInSection:)
-    public func tableView(_ tableView: UITableView, estimatedHeightForHeaderInSection section: Int) -> CGFloat {
+    @objc(tableView:heightForHeaderInSection:)
+    public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return headers?[section].estimatedHeight ?? CGFloat.closeToZero()
     }
 
@@ -66,8 +66,8 @@ public extension CabbageTableViewController {
         return footers?[section].title
     }
 
-    @objc(tableView:estimatedHeightForFooterInSection:)
-    public func tableView(_ tableView: UITableView, estimatedHeightForFooterInSection section: Int) -> CGFloat {
+    @objc(tableView:heightForFooterInSection:)
+    public func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
         return footers?[section].estimatedHeight ?? CGFloat.closeToZero()
     }
 
