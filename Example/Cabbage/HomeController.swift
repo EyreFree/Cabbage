@@ -3,7 +3,13 @@ import UIKit
 import Cabbage
 import SnapKit
 
-class HomeController: CabbageTableViewController, CabbageStoreSubscriber {
+class HomeController: CabbageTableViewController<
+    HomeCellModel,
+    DefaultCabbageTableViewHeaderFooterModel,
+    DefaultCabbageTableViewHeaderFooterModel
+>, CabbageStoreSubscriber, CabbageReuse {
+
+    
 
     var homeStore: CabbageStore<HomeState>?
 
@@ -11,12 +17,12 @@ class HomeController: CabbageTableViewController, CabbageStoreSubscriber {
     let textField = UITextField()
     let addButton = UIButton(type: .system)
 
-    override var cells: [[CabbageTableViewCellModel]]? {
+    override var cells: [[HomeCellModel]]? {
         get {
             return store().state.nameList
         }
         set(newValue) {
-            if let newValue = newValue as? [[HomeCellModel]] {
+            if let newValue = newValue {
                 store().state.nameList = newValue
             }
         }
@@ -24,6 +30,8 @@ class HomeController: CabbageTableViewController, CabbageStoreSubscriber {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.view.backgroundColor = UIColor.white
 
         tableView.register(HomeCell.self, forCellReuseIdentifier: HomeCellModel().reuseIdentifier())
 

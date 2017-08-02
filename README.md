@@ -1,13 +1,13 @@
 ![](https://raw.githubusercontent.com/Vegetarians/Cabbage/assets/cabbage_logo.png)
 
-[![CI Status](http://img.shields.io/travis/EyreFree/Cabbage.svg?style=flat)](https://travis-ci.org/EyreFree/Cabbage)
+[![CI Status](http://img.shields.io/travis/Vegetarians/Cabbage.svg?style=flat)](https://travis-ci.org/Vegetarians/Cabbage)
 [![Version](https://img.shields.io/cocoapods/v/Cabbage.svg?style=flat)](http://cocoapods.org/pods/Cabbage)
 [![License](https://img.shields.io/cocoapods/l/Cabbage.svg?style=flat)](http://cocoapods.org/pods/Cabbage)
 [![Platform](https://img.shields.io/cocoapods/p/Cabbage.svg?style=flat)](http://cocoapods.org/pods/Cabbage)
 
 Cabbage is an ordinary development framework in Swift, based on ReSwift 4.0.0.
 
-> [中文介绍](https://github.com/EyreFree/Cabbage/blob/master/README_CN.md)
+> [中文介绍](https://github.com/Vegetarians/Cabbage/blob/master/README_CN.md)
 
 ## Demo
 

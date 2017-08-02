@@ -1,14 +1,15 @@
 
 import UIKit
 
-open class CabbageTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+open class CabbageTableViewController<
+    CellModel: CabbageTableViewCellModel,
+    HeaderModel: CabbageTableViewHeaderFooterModel,
+    FooterModel: CabbageTableViewHeaderFooterModel
+>: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    open var cells: [[CabbageTableViewCellModel]]?
-    open var headers: [CabbageTableViewHeaderFooterModel]?
-    open var footers: [CabbageTableViewHeaderFooterModel]?
-}
-
-public extension CabbageTableViewController {
+    open var cells: [[CellModel]]?
+    open var headers: [HeaderModel]?
+    open var footers: [FooterModel]?
 
     // MAKR:- DataSource
     // MARK: Cell

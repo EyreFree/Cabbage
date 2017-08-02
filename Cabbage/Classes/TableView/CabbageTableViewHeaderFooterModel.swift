@@ -10,3 +10,10 @@ public protocol CabbageTableViewHeaderFooterModel: CabbageModel, CabbageReuse {
 public extension CabbageTableViewHeaderFooterModel {
 
 }
+
+public class DefaultCabbageTableViewHeaderFooterModel: CabbageTableViewHeaderFooterModel {
+
+    public var title: String? = ""
+    public var estimatedHeight: CGFloat? = CGFloat.closeToZero()
+    
+}
