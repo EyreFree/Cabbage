@@ -5,7 +5,7 @@ use_frameworks!
 
 target 'Cabbage_Example' do
 
-    pod 'SnapKit', '~> 3.2.0'
+    pod 'SnapKit', '~> 4.0.0'
 
     pod 'Cabbage', :path => '../'
 

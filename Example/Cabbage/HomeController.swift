@@ -87,7 +87,7 @@ class HomeController: CabbageTableViewController<
         tableView.reloadData()
     }
 
-    func addClick(_ sender: AnyObject) {
+    @objc func addClick(_ sender: AnyObject) {
         let xxx = HomeCellModel()
         xxx.title = textField.text ?? ""
         store().dispatch(ListActionAdd(newLine: xxx))
