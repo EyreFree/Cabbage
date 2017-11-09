@@ -24,16 +24,17 @@ git clone git@github.com:EyreFree/Cabbage.git; cd Cabbage/Example; open 'Cabbage
 
 ## 环境
 
-- XCode 8.0+
-- Swift 3.0+
-- iOS 8.0+
+| 版本     | 需求                                 |
+|:--------|:-------------------------------------|
+| 0.0.1   | XCode 8.0+<br>Swift 3.0+<br>iOS 8.0+ |
+| 4.x     | XCode 9.0+<br>Swift 4.0+<br>iOS 8.0+ |
 
 ## 安装
 
 Cabbage 可以通过 [CocoaPods](http://cocoapods.org) 进行获取。只需要在你的 Podfile 中添加如下代码就能实现引入：
 
 ```ruby
-pod "Cabbage", '~> 0.0.1'
+pod 'Cabbage'
 ```
 
 然后，执行如下命令即可：

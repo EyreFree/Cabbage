@@ -23,9 +23,10 @@ For more examples: [https://github.com/Vegetarians/CabbageExamples](https://gith
 
 ## Requirements
 
-- XCode 8.0+
-- Swift 3.0+
-- iOS 8.0+
+| Version | Needs                                |
+|:--------|:-------------------------------------|
+| 0.0.1   | XCode 8.0+<br>Swift 3.0+<br>iOS 8.0+ |
+| 4.x     | XCode 9.0+<br>Swift 4.0+<br>iOS 8.0+ |
 
 ## Installation
 
@@ -33,7 +34,7 @@ Cabbage is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Cabbage", '~> 0.0.1'
+pod 'Cabbage'
 ```
 
 ## Usage
